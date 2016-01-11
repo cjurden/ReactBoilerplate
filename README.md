@@ -2,12 +2,14 @@
 Starter kit for React using Babel, Browserify and Gulp. Based off of React Essentials
 **please post issues as they are found!**
 ###To Run
-move to directory containing boilerplate.sh, project structure will be created within current folder.
-If no project name is provided, root folder will be named "project"
+move to directory where you want the project to be created. the script is self-destructing.
+
+if no name is provided, project folder will be called "boilerplate"
 ```
-sh boilerplate.sh <project_name>
+git clone https://github.com/cjurden/ReactBoilerplate <project_name>
+sh boilerplate.sh
 ```
-Note: must have Node and npm installed. The process of installing node modules will take some time. **Be patient!**
+Note: must have Node, npm and git installed. The process of installing node modules will take some time. **Be patient!**
 
 ###Set up as git repository
 1. Create a new empty repository on github, do not add README, license or .gitignore
