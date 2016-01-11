@@ -4,7 +4,7 @@ Starter kit for React using Babel, Browserify and Gulp. Based off of React Essen
 ###To Run
 move to directory where you want the project to be created. the script is self-destructing.
 
-if no name is provided, project folder will be called "ReactBoilerplate"
+if no name is provided, <project_name> will be "ReactBoilerplate"
 ```
 git clone https://github.com/cjurden/ReactBoilerplate <project_name> && rm -rf <project_name>/.git
 cd <project_name>
