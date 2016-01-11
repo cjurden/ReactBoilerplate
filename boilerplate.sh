@@ -1,3 +1,4 @@
+rm -rf .git
 mkdir source source/components build
 mv index.html build
 touch source/app.js

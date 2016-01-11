@@ -6,7 +6,7 @@ move to directory where you want the project to be created. the script is self-d
 
 if no name is provided, <project_name> will be "ReactBoilerplate"
 ```
-git clone https://github.com/cjurden/ReactBoilerplate <project_name> && rm -rf <project_name>/.git
+git clone https://github.com/cjurden/ReactBoilerplate <project_name>
 cd <project_name>
 sh boilerplate.sh
 ```
