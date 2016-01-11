@@ -3,8 +3,9 @@ Starter kit for React using Babel, Browserify and Gulp. Based off of React Essen
 **please post issues as they are found!**
 ###To Run
 move to directory containing boilerplate.sh, project structure will be created within current folder.
+If no project name is provided, root folder will be named "project"
 ```
-sh boilerplate.sh
+sh boilerplate.sh <project_name>
 ```
 Note: must have Node and npm installed. The process of installing node modules will take some time. **Be patient!**
 
