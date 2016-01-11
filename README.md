@@ -6,7 +6,8 @@ move to directory where you want the project to be created. the script is self-d
 
 if no name is provided, project folder will be called "boilerplate"
 ```
-git clone https://github.com/cjurden/ReactBoilerplate <project_name>
+git clone https://github.com/cjurden/ReactBoilerplate <project_name> && rm -rf ReactBoilerplate/.git
+cd <project_name>
 sh boilerplate.sh
 ```
 Note: must have Node, npm and git installed. The process of installing node modules will take some time. **Be patient!**
