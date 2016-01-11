@@ -1,4 +1,3 @@
-git clone https://github.com/cjurden/ReactBoilerplate
 mkdir source source/components build
 mv index.html build
 touch source/app.js
