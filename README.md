@@ -17,7 +17,7 @@ Add the following to the app.js file (assumes top level react component is named
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Application from 'Application.jsx';
+import Application from './components/Application.jsx';
 
 ReactDOM.render(<Application />,
   document.getElementById('react-app')
