@@ -12,6 +12,17 @@ sh boilerplate.sh
 ```
 Note: must have Node, npm and git installed. The process of installing node modules will take some time. **Be patient!**
 
+###Once Installed
+Add the following to the app.js file (assumes top level react component is named Application):
+```
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Application from 'Application.jsx';
+
+ReactDOM.render(<Application />,
+  document.getElementById('react-app')
+);
+```
 ###Set up as git repository
 1. Create a new empty repository on github, do not add README, license or .gitignore
 2. Move to project folder
